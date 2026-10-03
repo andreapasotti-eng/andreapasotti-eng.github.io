@@ -1,0 +1,61 @@
+# Configurazione del sito (tema: Beautiful Jekyll, MIT)
+title: Andrea Pasotti
+author: Andrea Pasotti
+description: Biomedical engineer working on algorithms for medical images and biomedical signals.
+url: "https://andreapasotti-eng.github.io"
+
+navbar-links:
+  About: "/"
+  Publications: "publications"
+  CV: "assets/cv/Andrea_Pasotti_CV.pdf"
+
+social-network-links:
+  email: "andreapasotti.eng@protonmail.com"
+  linkedin: andreapasotti-eng
+  github: andreapasotti-eng
+
+url-pretty: "andreapasotti-eng.github.io"
+title-on-all-pages: true
+
+post_search: false
+edit_page_button: false
+navbar-var-length: false
+
+# Colori allineati al CV
+page-col: "#FFFFFF"
+text-col: "#2b2f33"
+link-col: "#1d4e6b"
+hover-col: "#2f7a9e"
+navbar-col: "#F4F6F8"
+navbar-text-col: "#2b2f33"
+navbar-border-col: "#DDDDDD"
+footer-col: "#F4F6F8"
+footer-text-col: "#56636f"
+footer-link-col: "#1d4e6b"
+footer-hover-col: "#2f7a9e"
+
+date_format: "%B %-d, %Y"
+timezone: "Europe/Rome"
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - docs/
+
+plugins:
+  - jekyll-sitemap
