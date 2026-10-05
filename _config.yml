@@ -1,3 +1,4 @@
+cd ~/progetti/andreapasotti-eng.github.io && pwd && cat > _config.yml <<'EOF'
 # Configurazione del sito (tema: Beautiful Jekyll, MIT)
 title: Andrea Pasotti
 author: Andrea Pasotti
@@ -7,7 +8,7 @@ url: "https://andreapasotti-eng.github.io"
 navbar-links:
   About: "/"
   Publications: "publications"
-    CV:
+  CV:
     - English: "assets/cv/Andrea_Pasotti_CV_EN.pdf"
     - Italiano: "assets/cv/Andrea_Pasotti_CV.pdf"
 
@@ -61,3 +62,5 @@ exclude:
 
 plugins:
   - jekyll-sitemap
+EOF
+ruby -ryaml -e 'YAML.load_file("_config.yml"); puts "YAML ok"'
