@@ -24,4 +24,4 @@ Designed and built the analysis pipeline of the ARCHIMEDE study on my own: 84 pa
 **MSc thesis – Medical image analysis** · Politecnico di Torino · 2022
 Automatic segmentation of T1 brain MRI in 98 paediatric patients with Chiari malformation: wavelet and bilateral filtering, Demons atlas registration and GVF active contours. Dice 0.83 (brain), 0.73 (cerebellum) and 0.75 (posterior fossa) against manual segmentations, and 93.7% accuracy of an SVM predicting surgical indication on a held-out test set.
 
-[Publications]({{ '/publications' | relative_url }}) · [CV (PDF, Italian)]({{ '/assets/cv/Andrea_Pasotti_CV.pdf' | relative_url }})
+[Publications]({{ '/publications' | relative_url }}) · [CV (English)]({{ '/assets/cv/Andrea_Pasotti_CV_EN.pdf' | relative_url }}) · [CV (Italiano)]({{ '/assets/cv/Andrea_Pasotti_CV.pdf' | relative_url }})

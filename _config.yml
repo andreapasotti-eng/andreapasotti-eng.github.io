@@ -7,7 +7,9 @@ url: "https://andreapasotti-eng.github.io"
 navbar-links:
   About: "/"
   Publications: "publications"
-  CV: "assets/cv/Andrea_Pasotti_CV.pdf"
+    CV:
+    - English: "assets/cv/Andrea_Pasotti_CV_EN.pdf"
+    - Italiano: "assets/cv/Andrea_Pasotti_CV.pdf"
 
 social-network-links:
   email: "andreapasotti.eng@protonmail.com"
